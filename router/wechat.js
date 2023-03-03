@@ -2,7 +2,7 @@ import Router from "koa-router"
 import crypto from "crypto"
 import sha1 from "sha1"
 import { wxConfig } from "./../config.js"
-import WechatServer from "./../utils/wechat.js"
+import { WechatServer } from "./../utils/wechat.js"
 const { token } = wxConfig
 let router = new Router()
 
